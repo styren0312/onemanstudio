@@ -18,8 +18,14 @@
         $('.nutmenu').removeClass('show');
         return false;
     });
-    $('.service').click(function () { 
+    $('.portfolio').click(function () { 
         $('html,body').animate({scrollTop:$('.top3').offset().top});
+        $('.menu').removeClass('show');
+        $('.nutmenu').removeClass('show');
+        return false;
+    });
+    $('.service').click(function () { 
+        $('html,body').animate({scrollTop:$('.top5').offset().top});
         $('.menu').removeClass('show');
         $('.nutmenu').removeClass('show');
         return false;
