@@ -1,0 +1,194 @@
+*{margin:0;padding:0; }
+
+.fa.fa-close.tat:hover {
+    margin-left: 30px;
+    background: whitesmoke;
+    color: grey;
+    opacity: 50%;
+    padding: 4px 8px;
+}
+.fa.fa-close.tat {
+    margin-left: 30px;
+    background: whitesmoke;
+    color: grey;
+    padding: 4px 8px;
+}
+
+.menu.show {
+    right: 0px;
+}
+.menu .menudoc a {
+    color: white;
+    font-size: 15px;
+    display: block;
+    padding: 8px 15px;
+    border: 1px solid gray;
+}
+.menu ul.menudoc {
+    list-style: none;
+}
+.menu {
+    position: fixed;
+    top: 0px;
+    right: -200px;
+    background: rgba(0,0,0,0.5);
+    color: white;
+    height: 900px;
+    width: 200px;
+    transition: 0.4s;
+    z-index: 3;
+}
+
+.nutmenu a.fa.fa-bars {
+    color: white;
+}
+.nutmenu.show {
+    right: -300px;
+}
+.nutmenu {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    padding: 10px 15px;
+    background: rgba(0,0,0,0.5);
+    transition: 0.4s;
+}
+
+.footer p {
+    color: #777777;
+}
+.footer .xahoi .fa{
+    margin: 50px 10px;
+}
+.footer{
+    padding: 100px;
+}
+.top6 a.btn.btn-default.nut2:hover{
+    border: none;
+    border-radius: 0px;
+    background: rgba(0,0,0,0.7);
+    color: white;
+    font-size: 18px;
+    margin: 10px;
+    padding: 10px 18px;
+}
+.top6 a.btn.btn-default.nut2{
+    border: none;
+    border-radius: 0px;
+    background: rgba(0,0,0,0.4);
+    color: white;
+    font-size: 18px;
+    margin: 10px;
+    padding: 10px 18px;
+}
+.top6 a.btn.btn-default.nut1:hover{
+    border: none;
+    border-radius: 0px;
+    background: rgba(255,255,255,0.7);
+    font-size: 18px;
+    margin: 10px;
+    padding: 10px 18px;
+}
+.top6 a.btn.btn-default.nut1{
+    border: none;
+    border-radius: 0px;
+    background: rgba(255,255,255,0.4);
+    font-size: 18px;
+    margin: 10px;
+    padding: 10px 18px;
+}
+.top6{
+    padding: 75px 0px;
+    background: #337ab7;
+    color: white;
+}
+.top5 a.btn.btn-default:hover {
+    border: none;
+    border-radius: 0px;
+    background: rgba(0,0,0,0.7);
+    color: white;
+}
+.top5 a.btn.btn-default {
+    border: none;
+    border-radius: 0px;
+    background: rgba(0,0,0,0.4);
+    color: white;
+}
+.top5 img.img-responsive:hover {
+    opacity: 0.7;
+}
+
+.top5 img.img-responsive {
+    margin-bottom: 30px;
+}
+
+.top5{
+    padding: 50px 0px;
+}
+.top4 h2{
+    font-size: 63px;
+}
+.top4{
+    padding: 150px 0px;
+    background: url(images/callout.jpg);
+    background-position: center;
+    color: white;
+}
+.iconto .fa {
+    height: 100px;
+    width: 100px;
+    font-size: 50px;
+    line-height: 100px;
+    background: white;
+    border-radius: 50%;
+    color: #337ab7;
+}
+
+.top3 a.btn.btn-default.nuttrang:hover {
+    border: none;
+    border-radius: 0px;
+    background: rgba(255,255,255,0.7);
+}
+.top3 a.btn.btn-default.nuttrang {
+    border: none;
+    border-radius: 0px;
+}
+hr{
+    width: 10%;
+    margin: auto;
+}
+.top3{
+    background: #337ab7;
+    color: white;
+    padding: 50px 0px;
+}
+.top2 h2{
+    padding-top: 75px;
+}
+.top2 h3{
+    padding-bottom: 75px;
+}
+.top1 a.btn.btn-default {
+    border: none;
+    border-radius: 0px;
+    background: rgba(0,0,0,0.4);
+    color: white;
+}
+.top1 a.btn.btn-default:hover {
+    border: none;
+    border-radius: 0px;
+    background: rgba(0,0,0,0.7);
+    color: white;
+}
+.top1 h1 {
+    padding-top: 215px;
+    font-size: 63px;
+}
+.top1{
+    display: block;
+    background: url(images/bg.jpg);
+    background-size: cover;
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
